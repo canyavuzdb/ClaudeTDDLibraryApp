@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FLAaHSotfnTZsau1Kjoq9HrVFKvnaAMsRW/z03S2UtpTVYI4RjvYNXXib8mIOCLIyalCEzhhDxeaVgCKj3svaA==",
+  "dgSpecHash": "K2LTkf25kmgeOhKyO0VT4eOsIpUwRJRZbyQW6a69BS3eCf3SzSWbczrCASAOqYGs6X2a3KHL0/wf+S6yQILDJg==",
   "success": true,
-  "projectFilePath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
+  "projectFilePath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

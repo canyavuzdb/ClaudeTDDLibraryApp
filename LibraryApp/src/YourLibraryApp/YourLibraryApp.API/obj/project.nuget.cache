@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RC6yTfSbQWDEeNW5BkVwPS/RzzhZLf+g5bjFNj/vVenKKhpBpoIlPUuoON0rXvg4ZzUbJ3E4rutCU6Wc7xfrXw==",
+  "dgSpecHash": "iQZc82N6v4UWGvHQbMJcA/NjdeJoigSQBitNMteNENapaWHIze+ks2QlYmHmI6mOgHRcuTh0VF7jsvyCcmsTVw==",
   "success": true,
-  "projectFilePath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
+  "projectFilePath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
   "expectedPackageFiles": [
     "/Users/mcy/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/Users/mcy/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

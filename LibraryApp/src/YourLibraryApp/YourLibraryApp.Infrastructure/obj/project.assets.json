@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
+      "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
       "projectName": "YourLibraryApp.Infrastructure",
-      "projectPath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
+      "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
       "packagesPath": "/Users/mcy/.nuget/packages/",
-      "outputPath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/obj/",
+      "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mcy/.nuget/NuGet/NuGet.Config"

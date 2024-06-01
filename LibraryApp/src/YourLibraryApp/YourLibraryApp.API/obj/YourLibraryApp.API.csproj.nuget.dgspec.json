@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {}
+    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {}
   },
   "projects": {
-    "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {
+    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
+        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
         "projectName": "YourLibraryApp.API",
-        "projectPath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
+        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/obj/",
+        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OcozYB/WDxzKyYxofIJDLvCq9/T9N2FVkzOLimtKskeBDkw7VDd0dXo08IsWIDLjSJiFIcV3CQnJ87lKWk9Szg==",
+  "dgSpecHash": "RW5V2KkvNTu7g6JO0muaUSZ9XZHrtuR0qCMePL1zVj6BpQZO5AJvXTexB++yIZANEceSoUfLaIZZG7Vqsqdr7g==",
   "success": true,
-  "projectFilePath": "/Users/mcy/Desktop/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
+  "projectFilePath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/mcy/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/mcy/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
