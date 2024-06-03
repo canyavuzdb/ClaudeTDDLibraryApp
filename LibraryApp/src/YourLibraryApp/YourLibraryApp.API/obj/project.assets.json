@@ -1614,6 +1614,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "YourLibraryApp.Domain": "1.0.0"
         },
@@ -1629,6 +1630,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
         },
         "compile": {
@@ -1636,6 +1638,22 @@
         },
         "runtime": {
           "bin/placeholder/YourLibraryApp.Domain.dll": {}
+        }
+      },
+      "YourLibraryApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "YourLibraryApp.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YourLibraryApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YourLibraryApp.Infrastructure.dll": {}
         }
       }
     }
@@ -4582,16 +4600,24 @@
       "type": "project",
       "path": "../YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
       "msbuildProject": "../YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
+    },
+    "YourLibraryApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
+      "msbuildProject": "../YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.3",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
+      "Microsoft.EntityFrameworkCore.Relational >= 8.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.6",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "YourLibraryApp.Application >= 1.0.0"
+      "YourLibraryApp.Application >= 1.0.0",
+      "YourLibraryApp.Domain >= 1.0.0",
+      "YourLibraryApp.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4621,6 +4647,12 @@
           "projectReferences": {
             "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
               "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
+            },
+            "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+              "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
+            },
+            "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj": {
+              "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj"
             }
           }
         }
@@ -4645,6 +4677,10 @@
             "version": "[8.0.3, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[8.0.6, )"
           },

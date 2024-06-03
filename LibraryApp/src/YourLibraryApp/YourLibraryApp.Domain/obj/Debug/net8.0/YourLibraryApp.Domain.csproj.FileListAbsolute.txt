@@ -1,0 +1,15 @@
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/bin/Debug/net8.0/YourLibraryApp.Domain.deps.json
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/bin/Debug/net8.0/YourLibraryApp.Domain.runtimeconfig.json
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/bin/Debug/net8.0/YourLibraryApp.Domain.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/bin/Debug/net8.0/YourLibraryApp.Domain.pdb
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.csproj.AssemblyReference.cache
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.AssemblyInfoInputs.cache
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.AssemblyInfo.cs
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.csproj.CoreCompileInputs.cache
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.sourcelink.json
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/refint/YourLibraryApp.Domain.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.pdb
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/YourLibraryApp.Domain.genruntimeconfig.cache
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/Debug/net8.0/ref/YourLibraryApp.Domain.dll
