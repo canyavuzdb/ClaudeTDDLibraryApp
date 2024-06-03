@@ -7,9 +7,12 @@ namespace YourLibraryApp.Domain
 {
     // Author.cs
     public class Author
+
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Biography { get; set; }
+        public ICollection<Book> Books { get; set; } // Yeni eklenen özellik
     }
+
 }
