@@ -1,15 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using YourLibraryApp.Domain;
 
 namespace YourLibraryApp.Application
 {
     public class AuthorService : IAuthorService
     {
-
         private readonly IAuthorRepository _authorRepository;
+
         public AuthorService(IAuthorRepository authorRepository)
         {
             _authorRepository = authorRepository;
@@ -27,21 +25,35 @@ namespace YourLibraryApp.Application
 
         public void AddAuthor(Author author)
         {
-            // Eğer gerekli ise, yazar ekleme öncesi bazı iş kuralları veya doğrulama işlemleri yapılabilir
+            // Ad alanının boş olmaması kontrolü
+            if (string.IsNullOrWhiteSpace(author.Name))
+                throw new ArgumentException("Author name cannot be empty or whitespace.");
+
+            // Biyografi alanının boş olmaması kontrolü (eğer Biography özelliği varsa)
+            if (string.IsNullOrWhiteSpace(author.Biography))
+                throw new ArgumentException("Author biography cannot be empty or whitespace.");
 
             _authorRepository.AddAuthor(author);
         }
 
         public void UpdateAuthor(Author author)
         {
-            // Eğer gerekli ise, yazar güncelleme öncesi bazı iş kuralları veya doğrulama işlemleri yapılabilir
+            // Yazar nesnesinin geçerliliği kontrolü
+            if (author == null)
+                throw new ArgumentNullException(nameof(author), "Author cannot be null");
+
+            // Yazar ID'sinin geçerliliği kontrolü
+            if (author.Id <= 0)
+                throw new ArgumentException("Invalid author ID");
 
             _authorRepository.UpdateAuthor(author);
         }
 
         public void DeleteAuthor(int id)
         {
-            // Eğer gerekli ise, yazar silme öncesi bazı iş kuralları veya doğrulama işlemleri yapılabilir
+            // Yazar ID'sinin geçerliliği kontrolü
+            if (id <= 0)
+                throw new ArgumentException("Invalid author ID");
 
             _authorRepository.DeleteAuthor(id);
         }
