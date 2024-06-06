@@ -12,7 +12,7 @@ namespace YourLibraryApp.API
     public class AuthorController
     {
         [ApiController]
-        [Route("[controller]")]
+        [Route("api/[controller]")]
         public class AuthorsController : ControllerBase
         {
             private readonly IAuthorService _authorService;
@@ -23,9 +23,46 @@ namespace YourLibraryApp.API
             }
 
             [HttpGet]
-            public IEnumerable<Author> GetAuthors()
+            public IEnumerable<Author> GetAllAuthors()
             {
                 return _authorService.GetAllAuthors();
+            }
+
+            [HttpGet("{id}")]
+            public Author GetAuthorById(int id)
+            {
+                return _authorService.GetAuthorById(id);
+            }
+
+            [HttpPost]
+            public IActionResult AddAuthor(Author author)
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
+                _authorService.AddAuthor(author);
+                return CreatedAtAction(nameof(GetAuthorById), new { id = author.Id }, author);
+            }
+
+            [HttpPut("{id}")]
+            public IActionResult UpdateAuthor(int id, Author author)
+            {
+                if (id != author.Id)
+                    return BadRequest();
+
+                _authorService.UpdateAuthor(author);
+                return NoContent();
+            }
+
+            [HttpDelete("{id}")]
+            public IActionResult DeleteAuthor(int id)
+            {
+                var authorToDelete = _authorService.GetAuthorById(id);
+                if (authorToDelete == null)
+                    return NotFound();
+
+                _authorService.DeleteAuthor(id);
+                return NoContent();
             }
         }
     }
