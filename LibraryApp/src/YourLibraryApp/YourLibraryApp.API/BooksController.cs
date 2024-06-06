@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using YourLibraryApp.Application;
 using YourLibraryApp.Domain;
 
@@ -34,28 +33,20 @@ namespace YourLibraryApp.API
         }
 
         [HttpPost]
-        public IActionResult AddBook([FromBody] string jsonString)
+        public IActionResult AddBook(Book book)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-
-            // Newtonsoft.Json kütüphanesini kullanarak JSON'u Book nesnesine dönüştürün
-            var book = JsonConvert.DeserializeObject<Book>(jsonString);
-
-            // Verileri kontrol edin ve doğrulayın (gerekirse)
 
             _bookService.AddBook(book);
             return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, book);
         }
 
-
         [HttpPut("{id}")]
-        public IActionResult UpdateBook(int id, [FromBody] Book book)
+        public IActionResult UpdateBook(int id, Book book)
         {
             if (id != book.Id)
-            {
                 return BadRequest();
-            }
 
             _bookService.UpdateBook(book);
             return NoContent();
