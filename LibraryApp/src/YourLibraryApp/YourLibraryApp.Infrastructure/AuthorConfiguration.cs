@@ -8,7 +8,7 @@ namespace YourLibraryApp.Infrastructure
     {
         public void Configure(EntityTypeBuilder<Author> builder)
         {
-            builder.ToTable("Authors");
+            builder.ToTable("Author");
             builder.HasKey(a => a.Id);
 
             builder.Property(a => a.Name)
@@ -19,9 +19,8 @@ namespace YourLibraryApp.Infrastructure
                 .HasMaxLength(1000);
 
             builder.HasMany(a => a.Books)
-                .WithOne()
-                .HasForeignKey(b => b.AuthorId)
-                .OnDelete(DeleteBehavior.Cascade);
+    .WithOne(b => b.Author)
+    .HasForeignKey(b => b.AuthorId);
         }
     }
 }
