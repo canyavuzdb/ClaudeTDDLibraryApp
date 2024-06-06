@@ -142,3 +142,7 @@
 /Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/YourLibraryApp.Application.pdb
 /Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/YourLibraryApp.Domain.pdb
 /Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/YourLibraryApp.Infrastructure.pdb
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
