@@ -1,54 +1,42 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using YourLibraryApp.Application;
 using YourLibraryApp.Domain;
 
-
 namespace YourLibraryApp.Infrastructure
 {
-    // YourLibraryApp.Infrastructure projesinde
-    public class AuthorRepository : IAuthorRepository
+    public class AuthorRepository : Repository<Author>, IAuthorRepository
     {
-        private readonly AuthorDbContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
 
-        public AuthorRepository(AuthorDbContext dbContext)
+        public AuthorRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
         }
 
         public IEnumerable<Author> GetAllAuthors()
         {
-            return _dbContext.Authors.ToList();
+            return _dbContext.Authors.Include(a => a.Books);
         }
 
         public Author GetAuthorById(int id)
         {
-            return _dbContext.Authors.Find(id);
+            return _dbContext.Authors.Include(a => a.Books).FirstOrDefault(a => a.Id == id);
         }
 
         public void AddAuthor(Author author)
         {
-            _dbContext.Authors.Add(author);
-            _dbContext.SaveChanges();
+            Add(author);
         }
 
         public void UpdateAuthor(Author author)
         {
-            _dbContext.Authors.Update(author);
-            _dbContext.SaveChanges();
+            Update(author);
         }
 
         public void DeleteAuthor(int id)
         {
-            var author = _dbContext.Authors.Find(id);
-            if (author != null)
-            {
-                _dbContext.Authors.Remove(author);
-                _dbContext.SaveChanges();
-            }
+            Delete(id);
         }
     }
 }
