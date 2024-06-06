@@ -25,9 +25,9 @@ namespace YourLibraryApp.Application
 
         public void AddBook(Book book)
         {
-            // İlişkili varlık kontrolü
-            if (book.Author != null && book.Author.Id <= 0)
-                throw new ArgumentException("Invalid author");
+            // Sadece AuthorId kontrolü yapacağız
+            if (book.AuthorId <= 0)
+                throw new ArgumentException("Invalid author ID");
 
             _bookRepository.AddBook(book);
         }
@@ -38,9 +38,9 @@ namespace YourLibraryApp.Application
             if (book == null)
                 throw new ArgumentNullException(nameof(book), "Book cannot be null");
 
-            // İlişkili varlık kontrolü
-            if (book.Author != null && book.Author.Id <= 0)
-                throw new ArgumentException("Invalid author");
+            // Sadece AuthorId kontrolü yapacağız
+            if (book.AuthorId <= 0)
+                throw new ArgumentException("Invalid author ID");
 
             _bookRepository.UpdateBook(book);
         }
