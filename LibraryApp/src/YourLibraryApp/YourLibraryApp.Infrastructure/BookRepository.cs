@@ -17,12 +17,12 @@ namespace YourLibraryApp.Infrastructure
 
         public IEnumerable<Book> GetAllBooks()
         {
-            return _dbContext.Books.Include(b => b.AuthorId);
+            return _dbContext.Books.Include(b => b.Author);
         }
 
         public Book GetBookById(int id)
         {
-            return _dbContext.Books.Include(b => b.AuthorId).FirstOrDefault(b => b.Id == id);
+            return _dbContext.Books.Include(b => b.Author).FirstOrDefault(b => b.Id == id);
         }
 
         public void AddBook(Book book)
