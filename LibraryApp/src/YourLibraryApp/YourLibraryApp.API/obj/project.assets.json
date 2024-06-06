@@ -1720,7 +1720,8 @@
           "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "Newtonsoft.Json": "13.0.3",
-          "YourLibraryApp.Application": "1.0.0"
+          "YourLibraryApp.Application": "1.0.0",
+          "YourLibraryApp.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/YourLibraryApp.Infrastructure.dll": {}

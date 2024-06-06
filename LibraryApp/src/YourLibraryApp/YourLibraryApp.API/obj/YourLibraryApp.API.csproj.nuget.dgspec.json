@@ -329,6 +329,9 @@
             "projectReferences": {
               "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
                 "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
+              },
+              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
               }
             }
           }

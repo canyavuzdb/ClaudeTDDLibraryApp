@@ -26,4 +26,9 @@
    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
  </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YourLibraryApp.Application\YourLibraryApp.Application.csproj" />
+    <ProjectReference Include="..\YourLibraryApp.Domain\YourLibraryApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

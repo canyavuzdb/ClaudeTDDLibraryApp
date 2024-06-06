@@ -4305,7 +4305,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.6",
       "Newtonsoft.Json >= 13.0.3",
-      "YourLibraryApp.Application >= 1.0.0"
+      "YourLibraryApp.Application >= 1.0.0",
+      "YourLibraryApp.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4335,6 +4336,9 @@
           "projectReferences": {
             "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
               "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
+            },
+            "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+              "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
             }
           }
         }
