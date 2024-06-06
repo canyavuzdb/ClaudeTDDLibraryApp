@@ -21,7 +21,7 @@ namespace YourLibraryApp.Infrastructure
             builder.Property(b => b.Genre)
                 .HasMaxLength(50);
 
-            builder.HasOne(b => b.Author)
+            builder.HasOne<Author>()
                 .WithMany(a => a.Books)
                 .HasForeignKey(b => b.AuthorId);
         }
