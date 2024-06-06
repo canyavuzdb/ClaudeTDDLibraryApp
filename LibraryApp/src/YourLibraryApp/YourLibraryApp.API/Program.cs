@@ -42,21 +42,14 @@
 // {
 //     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 // }
-
-using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using YourLibraryApp.Application;
 using YourLibraryApp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<AuthorDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-        x => x.EnableRetryOnFailure()));
-
-builder.Services.AddDbContext<BookDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
         x => x.EnableRetryOnFailure()));
 
@@ -64,17 +57,12 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
-    });
 
-// Swagger servisini ekleyin
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "YourLibraryApp.Api", Version = "v1" });
-});
+builder.Services.AddControllers();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
