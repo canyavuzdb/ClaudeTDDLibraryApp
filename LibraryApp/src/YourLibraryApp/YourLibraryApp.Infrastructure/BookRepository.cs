@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using YourLibraryApp.Domain;
 using YourLibraryApp.Application;
 
-
 namespace YourLibraryApp.Infrastructure
 {
     public class BookRepository : Repository<Book>, IBookRepository
@@ -40,4 +39,4 @@ namespace YourLibraryApp.Infrastructure
             Delete(id);
         }
     }
-}
+}   
