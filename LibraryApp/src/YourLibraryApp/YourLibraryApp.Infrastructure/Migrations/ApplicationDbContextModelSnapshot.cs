@@ -55,9 +55,6 @@ namespace YourLibraryApp.Infrastructure.Migrations
                     b.Property<int>("AuthorId")
                         .HasColumnType("int");
 
-                    b.Property<int>("AuthorId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Genre")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -75,22 +72,14 @@ namespace YourLibraryApp.Infrastructure.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.HasIndex("AuthorId1");
-
                     b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("YourLibraryApp.Domain.Book", b =>
                 {
-                    b.HasOne("YourLibraryApp.Domain.Author", null)
+                    b.HasOne("YourLibraryApp.Domain.Author", "Author")
                         .WithMany("Books")
                         .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("YourLibraryApp.Domain.Author", "Author")
-                        .WithMany()
-                        .HasForeignKey("AuthorId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
