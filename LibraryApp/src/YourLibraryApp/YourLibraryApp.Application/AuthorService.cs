@@ -23,6 +23,14 @@ namespace YourLibraryApp.Application
             return _authorRepository.GetAuthorById(id);
         }
 
+        //   public Author GetAuthorByName(string name)
+        // {
+        //     if (string.IsNullOrWhiteSpace(name))
+        //         throw new ArgumentException("Author name cannot be empty or whitespace.", nameof(name));
+
+        //     return _authorRepository.GetAuthorByName(name);
+        // }
+
         public void AddAuthor(Author author)
         {
             // Ad alanının boş olmaması kontrolü
