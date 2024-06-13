@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {}
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {}
   },
   "projects": {
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
+        "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
         "projectName": "YourLibraryApp.API",
-        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
+        "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/YourLibraryApp.API.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/obj/",
+        "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"
@@ -26,14 +26,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
               },
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
               },
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj"
               }
             }
           }
@@ -117,14 +117,14 @@
         }
       }
     },
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
+        "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
         "projectName": "YourLibraryApp.Application",
-        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
+        "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/obj/",
+        "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"
@@ -139,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
               }
             }
           }
@@ -160,6 +160,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Google.Apis.Books.v1": {
+              "target": "Package",
+              "version": "[1.68.0.3331, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -213,14 +217,14 @@
         }
       }
     },
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
+        "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
         "projectName": "YourLibraryApp.Domain",
-        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
+        "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/",
+        "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"
@@ -305,14 +309,14 @@
         }
       }
     },
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj": {
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
+        "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
         "projectName": "YourLibraryApp.Infrastructure",
-        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
+        "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/YourLibraryApp.Infrastructure.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/obj/",
+        "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"
@@ -327,11 +331,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Application/YourLibraryApp.Application.csproj"
               },
-              "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
-                "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
+              "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+                "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj"
               }
             }
           }

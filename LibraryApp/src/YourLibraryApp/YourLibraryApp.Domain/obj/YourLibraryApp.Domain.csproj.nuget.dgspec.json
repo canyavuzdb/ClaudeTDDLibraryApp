@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {}
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {}
   },
   "projects": {
-    "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
+    "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
+        "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
         "projectName": "YourLibraryApp.Domain",
-        "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
+        "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
         "packagesPath": "/Users/mcy/.nuget/packages/",
-        "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/",
+        "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mcy/.nuget/NuGet/NuGet.Config"

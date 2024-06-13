@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "70pVigxRGsc=",
+  "dgSpecHash": "VehnL1SFBh0=",
   "success": true,
-  "projectFilePath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
+  "projectFilePath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/src/YourLibraryApp/YourLibraryApp.Domain/YourLibraryApp.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/mcy/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/mcy/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

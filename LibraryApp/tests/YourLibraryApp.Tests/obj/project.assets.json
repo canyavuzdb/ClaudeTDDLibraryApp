@@ -5513,11 +5513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
+      "projectUniqueName": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
       "projectName": "YourLibraryApp.Tests",
-      "projectPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
+      "projectPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
       "packagesPath": "/Users/mcy/.nuget/packages/",
-      "outputPath": "/Users/mcy/Desktop/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/obj/",
+      "outputPath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mcy/.nuget/NuGet/NuGet.Config"

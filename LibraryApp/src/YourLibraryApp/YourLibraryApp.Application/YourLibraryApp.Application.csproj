@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YourLibraryApp.Domain\YourLibraryApp.Domain.csproj" />
+    
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Books.v1" Version="1.68.0.3331" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
