@@ -10,6 +10,7 @@ namespace YourLibraryApp.Application
     {
         IEnumerable<Author> GetAllAuthors();
         Author GetAuthorById(int id);
+        // Author GetAuthorByName(string name);
         void AddAuthor(Author author);
         void UpdateAuthor(Author author);
         void DeleteAuthor(int id);
