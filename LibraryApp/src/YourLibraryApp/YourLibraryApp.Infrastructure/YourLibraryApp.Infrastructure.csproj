@@ -7,10 +7,6 @@
   </PropertyGroup>
 
  <ItemGroup>
-    <ProjectReference Include="..\YourLibraryApp.Application\YourLibraryApp.Application.csproj" />
-  </ItemGroup>
-
- <ItemGroup>
    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
