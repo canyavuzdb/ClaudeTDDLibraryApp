@@ -28,6 +28,17 @@ namespace YourLibraryApp.API
             return _authorService.GetAuthorById(id);
         }
 
+        // [HttpGet("name/{name}")]
+        // public ActionResult<Author> GetAuthorByName(string name)
+        // {
+        //     if (string.IsNullOrWhiteSpace(name))
+        //         return BadRequest("Name cannot be empty or whitespace.");
+
+        //     var author = _authorService.GetAuthorByName(name);
+        //     if (author == null) return NotFound();
+
+        //     return author;
+        // }
         [HttpPost]
         public IActionResult AddAuthor([FromBody] Author author)
         {
