@@ -16,6 +16,7 @@ namespace YourLibraryApp.Infrastructure
                 .HasMaxLength(100);
 
             builder.Property(a => a.Biography)
+                .IsRequired(false)
                 .HasMaxLength(1000);
 
             builder.HasMany(a => a.Books)
