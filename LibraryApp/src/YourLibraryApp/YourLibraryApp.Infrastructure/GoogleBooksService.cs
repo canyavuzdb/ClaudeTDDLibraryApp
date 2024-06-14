@@ -57,14 +57,21 @@ public class GoogleBooksService : IGoogleBooksService
             var author = await GetOrCreateAuthor(volumeInfo.Authors);
             int? publicationYear = GetPublicationYear(volumeInfo.PublishedDate);
 
-            var book = new Book
+            if (author != null)
             {
-                Title = volumeInfo.Title,
-                AuthorId = author?.Id,
-                PublicationYear = publicationYear,
-                Genre = string.Join(", ", volumeInfo.Categories ?? Enumerable.Empty<string>())
-            };
-            _bookRepository.AddBook(book);
+                var book = new Book
+                {
+                    Title = volumeInfo.Title,
+                    AuthorId = author.Id,
+                    PublicationYear = publicationYear,
+                    Genre = string.Join(", ", volumeInfo.Categories ?? Enumerable.Empty<string>())
+                };
+                _bookRepository.AddBook(book);
+            }
+            else
+            {
+                Console.WriteLine($"Author could not be created for book: {volumeInfo.Title}");
+            }
         }
     }
 
