@@ -9,7 +9,7 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
         builder.ToTable("Books");
         builder.HasKey(b => b.Id);
         builder.Property(b => b.Title).IsRequired().HasMaxLength(200);
-        builder.Property(b => b.PublicationYear).IsRequired();
+        builder.Property(b => b.PublicationYear).IsRequired(false);
         builder.Property(b => b.Genre).IsRequired().HasMaxLength(50);
 
         // Aşağıdaki satırları ekleyin veya güncelleyin
