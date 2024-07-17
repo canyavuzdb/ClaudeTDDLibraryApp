@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7z0SIHRGtKY=",
+  "dgSpecHash": "dgYmN/J5GhE=",
   "success": true,
   "projectFilePath": "/Users/mcy/Documents/GitHub/ClaudeTDDLibraryApp/LibraryApp/tests/YourLibraryApp.Tests/YourLibraryApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/mcy/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/mcy/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/mcy/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/mcy/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/mcy/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/mcy/.nuget/packages/google.apis/1.68.0/google.apis.1.68.0.nupkg.sha512",
