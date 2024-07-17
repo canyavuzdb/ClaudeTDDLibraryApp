@@ -38,5 +38,15 @@ namespace YourLibraryApp.Infrastructure
         {
             Delete(id);
         }
+
+        public Task<Book> GetBookByTitleAndAuthorIdAsync(string title, int? authorId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddBookAsync(Book book)
+        {
+            throw new NotImplementedException();
+        }
     }
 }   
