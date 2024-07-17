@@ -27,13 +27,17 @@ namespace YourLibraryApp.Infrastructure.Services
 
             return searchResult?.Docs.Select(doc => new Book
             {
-                Title = doc.Title,
+                Title = doc.Title ?? "Unknown Title",
                 PublicationYear = doc.FirstPublishYear,
                 Genre = doc.Subject?.FirstOrDefault() ?? "Unknown Genre",
-                // AuthorId ve Author property'leri burada set edilmiyor,
-                // çünkü önce Author'ı veritabanına eklemeniz gerekiyor.
+                Author = new Author
+                {
+                    Name = doc.AuthorName?.FirstOrDefault() ?? "Unknown Author",
+                    Biography = "No biography available"
+                }
             }).ToList() ?? new List<Book>();
         }
+
     }
 
     public class OpenLibrarySearchResult
@@ -48,5 +52,6 @@ namespace YourLibraryApp.Infrastructure.Services
         public List<string> Isbn { get; set; }
         public int? FirstPublishYear { get; set; }
         public List<string> Subject { get; set; }
+        public int? CoverId { get; set; }
     }
 }
