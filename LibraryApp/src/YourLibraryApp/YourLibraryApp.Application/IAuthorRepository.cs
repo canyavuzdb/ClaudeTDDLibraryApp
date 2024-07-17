@@ -14,5 +14,7 @@ namespace YourLibraryApp.Application
         void AddAuthor(Author author);
         void UpdateAuthor(Author author);
         void DeleteAuthor(int id);
+        Task<Author> GetAuthorByNameAsync(string name);
+        Task AddAuthorAsync(Author author);
     }
 }
