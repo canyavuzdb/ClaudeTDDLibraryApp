@@ -1,6 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using YourLibraryApp.Application;
 using YourLibraryApp.Infrastructure;
+using YourLibraryApp.API.Helpers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,9 +26,26 @@ builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IGoogleBooksService, GoogleBooksService>();
 
+// JWT ve User servisleri ekleniyor
+builder.Services.AddScoped<JwtUtils>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Services.AddControllers();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// JWT Authentication ekleniyor
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["AppSettings:Secret"])),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    });
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -38,6 +59,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Authentication middleware ekleniyor
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();
