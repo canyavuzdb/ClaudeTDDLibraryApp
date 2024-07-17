@@ -15,5 +15,7 @@ namespace YourLibraryApp.Application
         void AddBook(Book book);
         void UpdateBook(Book book);
         void DeleteBook(int id);
+        Task<Book> GetBookByTitleAndAuthorIdAsync(string title, int? authorId);
+        Task AddBookAsync(Book book);
     }
 }
