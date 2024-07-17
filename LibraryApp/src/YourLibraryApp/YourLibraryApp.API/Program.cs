@@ -18,7 +18,7 @@ try
 catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
-    // Hata işleme kodunuz...
+    // Hata işleme kodu...
 }
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
