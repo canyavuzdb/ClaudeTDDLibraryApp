@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using YourLibraryApp.Application;
 using YourLibraryApp.Infrastructure;
+using YourLibraryApp.Infrastructure.Services;
 using YourLibraryApp.API.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -25,6 +26,9 @@ builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IGoogleBooksService, GoogleBooksService>();
+
+// OpenLibraryService ekleniyor
+builder.Services.AddHttpClient<IOpenLibraryService, OpenLibraryService>();
 
 // JWT ve User servisleri ekleniyor
 builder.Services.AddScoped<JwtUtils>();
