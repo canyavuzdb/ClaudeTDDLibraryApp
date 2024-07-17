@@ -12,10 +12,12 @@ namespace YourLibraryApp.API
     public class SeedController : ControllerBase
     {
         private readonly IOpenLibraryService _openLibraryService;
+        private readonly IBookService _bookService;
 
-        public SeedController(IOpenLibraryService openLibraryService)
+        public SeedController(IOpenLibraryService openLibraryService, IBookService bookService)
         {
             _openLibraryService = openLibraryService;
+            _bookService = bookService;
         }
 
         [HttpGet("search")]
@@ -23,6 +25,14 @@ namespace YourLibraryApp.API
         {
             var books = await _openLibraryService.SearchBooksAsync(query, maxResults);
             return Ok(books);
+        }
+
+        [HttpPost("seed")]
+        public async Task<IActionResult> SeedBooks(string query, int maxResults = 40)
+        {
+            var books = await _openLibraryService.SearchBooksAsync(query, maxResults);
+            var addedBooks = await _bookService.AddBooksAsync(books);
+            return Ok($"{addedBooks} books have been added to the database.");
         }
     }
 }
