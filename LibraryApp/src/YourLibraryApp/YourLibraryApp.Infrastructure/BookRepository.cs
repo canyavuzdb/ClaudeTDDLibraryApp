@@ -41,12 +41,16 @@ namespace YourLibraryApp.Infrastructure
 
         public Task<Book> GetBookByTitleAndAuthorIdAsync(string title, int? authorId)
         {
-            throw new NotImplementedException();
+            return _dbContext.Books
+                .Include(b => b.Author)
+                .FirstOrDefaultAsync(b => b.Title == title && b.AuthorId == authorId);
+
         }
 
         public Task AddBookAsync(Book book)
         {
-            throw new NotImplementedException();
+            Add(book);
+            return Task.CompletedTask;
         }
     }
 }   
