@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YourLibraryApp.Domain\YourLibraryApp.Domain.csproj" />
-    
   </ItemGroup>
 
   <ItemGroup>

@@ -83,7 +83,6 @@ namespace YourLibraryApp.Application
                     addedBooks++;
                 }
             }
-
             return addedBooks;
         }
     }

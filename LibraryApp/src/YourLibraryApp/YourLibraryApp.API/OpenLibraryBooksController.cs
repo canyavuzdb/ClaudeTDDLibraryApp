@@ -9,12 +9,12 @@ namespace YourLibraryApp.API
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class SeedController : ControllerBase
+    public class OpenLibraryBooksController : ControllerBase
     {
         private readonly IOpenLibraryService _openLibraryService;
         private readonly IBookService _bookService;
 
-        public SeedController(IOpenLibraryService openLibraryService, IBookService bookService)
+        public OpenLibraryBooksController(IOpenLibraryService openLibraryService, IBookService bookService)
         {
             _openLibraryService = openLibraryService;
             _bookService = bookService;
